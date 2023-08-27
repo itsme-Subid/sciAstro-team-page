@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container-custom {
+  width: min(90%, 60rem);
+  margin-inline: auto;
+}
+
+.gradient-text {
+  background-color: #fff;
+  background-image: linear-gradient(to right, #234EB0 32.75%, #B656E2 60.73%);
+  background-size: 400%;
+  background-position: center;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-button {
+  position: relative;
+  background-color: #fff;
+}
+
+.gradient-button::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  background-color: #fff;
+  background-image: linear-gradient(to right, #234EB0 32.75%, #B656E2 60.73%);
+  background-size: 400%;
+  background-position: center;
+  z-index: -1;
+  border-radius: 100vw;
+}
