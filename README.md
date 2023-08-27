@@ -1,27 +1,55 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# [SciAstro-team-page](https://sciAstro-team-page-subid-das.vercel.app/)
 
-Currently, two official plugins are available:
+![](https://raw.githubusercontent.com/itsme-Subid/sciAstro-team-page/main/preview.webp)
+![](https://img.shields.io/github/languages/top/itsme-Subid/sciAstro-team-page?style=for-the-badge)
+![](https://img.shields.io/github/languages/count/itsme-Subid/sciAstro-team-page?style=for-the-badge)
+![](https://img.shields.io/github/languages/code-size/itsme-Subid/sciAstro-team-page?style=for-the-badge)
+![](https://img.shields.io/github/repo-size/itsme-Subid/sciAstro-team-page?style=for-the-badge)
+![](https://img.shields.io/github/last-commit/itsme-Subid/sciAstro-team-page?style=for-the-badge)
+![](https://img.shields.io/github/commit-activity/w/itsme-Subid/sciAstro-team-page?style=for-the-badge)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</div>
 
-## Expanding the ESLint configuration
+Welcome to the SciAstro-team-page repository! SciAstro-team-page is a visually stunning website built using React.js, TypeScript and Tailwind CSS. The project is a front-end development endeavor and can be found on [GitHub](https://github.com/itsme-Subid/sciAstro-team-page).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+To get started, you can simply clone this repository and install the dependencies.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+### Cloning the Repository
+
+To clone the repository, you will need to have git installed on your machine. Once you have those, you can use the following commands:
+
+```bash
+git clone https://github.com/itsme-Subid/sciAstro-team-page.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Running the Project
+
+To run the project, you will need to have Node.js and pnpm or yarn or npm installed on your machine. Once you have those, you can use the following commands:
+
+```bash
+cd sciAstro-team-page
+pnpm install
+pnpm run dev
+```
+
+or, if you are using yarn:
+
+```bash
+cd sciAstro-team-page
+yarn
+yarn run dev
+```
+
+or, if you are using npm:
+
+```bash
+cd sciAstro-team-page
+npm install
+npm run dev
+```
+
+This will start the development server and you should be able to see the website by visiting http://localhost:5173 in your browser.
