@@ -55,9 +55,12 @@ const Mentors = () => {
       <h2 className="gradient-text text-center text-4xl font-bold">
         Meet your Mentors
       </h2>
-      <ul className="mt-8 grid grid-cols-4 gap-8">
+      <ul className="mt-8 grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {mentors.map((mentor) => (
-          <li className="my-4 grid place-content-center gap-4">
+          <li
+            className="my-4 grid place-content-center gap-4"
+            key={mentor.name}
+          >
             <img
               className="w-full rounded-full shadow-md"
               src={`https://avatars.dicebear.com/api/avataaars/${mentor.name}.svg`}

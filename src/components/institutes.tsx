@@ -57,15 +57,16 @@ const Institutes = () => {
           the world.
         </p>
       </div>
-      <ul className="mt-8 grid grid-cols-4 gap-8">
-        {institutes.map((institute) => {
-          return (
-            <li className="grid place-content-center gap-4 rounded-xl px-12 py-4 shadow-md transition-shadow hover:shadow-lg">
-              <img src={institute.img} alt={institute.name} />
-              <h3 className="text-center">{institute.name}</h3>
-            </li>
-          );
-        })}
+      <ul className="mt-8 grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        {institutes.map((institute) => (
+          <li
+            className="grid place-content-center gap-4 rounded-xl px-12 py-4 shadow-md transition-shadow hover:shadow-lg"
+            key={institute.name}
+          >
+            <img src={institute.img} alt={institute.name} />
+            <h3 className="text-center">{institute.name}</h3>
+          </li>
+        ))}
         <li className="grid place-content-center rounded-xl px-12 py-4">
           and so on...
         </li>
